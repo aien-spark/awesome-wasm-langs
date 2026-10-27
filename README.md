@@ -85,6 +85,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Nerd](#nerd)
   - [Nim](#nim)
   - [Ocaml](#ocaml)
+  - [Omega](#omega)
   - [Plorth](#plorth)
   - [Roc](#roc)
   - [Theta](#theta)
@@ -502,6 +503,12 @@ This repo contains a list of languages that currently compile to or have their V
 > OCaml, originally named Objective Caml, is the main implementation of the programming language Caml, created by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez and others in 1996. A member of the ML language family, OCaml extends the core Caml language with object-oriented programming constructs.
 * [Ocaml](https://github.com/SanderSpies/ocaml/tree/wasm/wasmcomp) - a fork of main repo containing work on OCaml to wasm compilation.
 * ~[OcamlRun](https://github.com/sebmarkbage/ocamlrun-wasm) - a build script for compiling OCaml bytecode interpreter to wasm using emscripten [Unmaintained]~
+
+--------------------
+
+### <a name="omega"></a>Omega <sup>[top⇈](#contents)</sup>
+> Omega is a research-grade systems language whose compiler is rebuilt from a 408-byte seed using only POSIX shell tools. Its WebAssembly back end (irwasm, itself written in Omega) translates the compiler's IR into wasm MVP modules. It covers scalar functions only so far (no linear memory, strings or globals yet), its output is checked against Node's WebAssembly engine, and the compiler itself runs on AArch64 Linux.
+* [irwasm](https://github.com/aien-dev/omega-mv/tree/main/seed/wasm) - WebAssembly back end and its differential test script.
 
 --------------------
 
